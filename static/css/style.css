@@ -17,9 +17,9 @@ body{
 .container{
     width: 420px;
     background: transparent;
-    border: 2px solid #413f3f;
+    border: 2px solid #878383;
     backdrop-filter: blur(20px);
-    border-radius: 10px;
+    border-radius: 12px;
     padding: 30px 40px;
 }
 
@@ -60,4 +60,56 @@ h1{
     top: 20%;
     margin-top: 5px;
 }
+
+
+.input-container a {
+    font-size: 16px;
+    margin-top: 5px;
+    color: #fff;
+    text-decoration: none;
+
+}
+.input-container a:hover{
+    text-decoration: underline;
+}
+
+
+.submit-button{
+    width: 100%;
+    height: 50px;
+    background-color: #9e9494;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 24px;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+}
+.submit-button:hover{
+    background-color: #6a6363;
+}
+
+
+.register-user p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+.register-user {
+    text-align: center;
+    margin: 20px 0;
+
+}
+.register-user p a {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+.register-user p a:hover{
+    text-decoration: underline;
+}
+
 
