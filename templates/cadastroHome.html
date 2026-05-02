@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastrar.com</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/cadastroHome.css') }}">
+</head>
+<body>
+    
+   
+<div class="cadastro-container">
+   <form action="{{ url_for('cadastrar') }}" method="post">
+         <h1>cadastrar</h1> 
+         <div class="cadastro-input">
+            <label> usuario </label><br>
+            <input type="text" name="usuario" placeholder=" nome do usuario" required>
+         </div>
+         <div class="cadastro-input">
+            <label> email </label><br>
+            <input type="text" name="email" placeholder="email do usuario" required>
+         </div>
+         <div class="cadastro-input">
+            <label>senha</label><br>
+            <input type="password" name="senha" placeholder="senha" required>
+        </div>
+
+        <button type="submit" class="cadastro-button">cadastar</button>
+
+        <div class="cadastro-link">
+            <p>já tem uma conta? <a href="{{ url_for('home') }}">entrar</a></p>
+        </div>
+
+   </form>
+</div>
+
+</body>
+</html>

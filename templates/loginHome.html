@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tela de login</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/loginHome.css') }}">
     
 </head>
 <body>
@@ -14,7 +14,7 @@
     <form action="{{ url_for('login') }}" method="post">
          <h1>entrar na plataforma</h1>
          <div class="input-container">
-            <input type = "text" name = "usuario" placeholder = "email" required> 
+            <input type = "text" name = "usuario" placeholder = "email ou usuario" required> 
             <img width="20" height="20" src="https://img.icons8.com/fluency-systems-filled/48/1A1A1A/user.png" alt="user"/>
          </div>
         
@@ -27,7 +27,7 @@
             <button type = "submit" class="submit-button" >entrar</button>
 
          <div class="register-user">
-           <p>não está cadastrado? <a href="#">cadastrar</a> </p>
+           <p>não está cadastrado? <a href="{{ url_for('cadastro') }}">cadastrar</a> </p>
          </div>
         
      </form>
