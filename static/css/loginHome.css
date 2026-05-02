@@ -17,7 +17,7 @@ body{
 .container{
     width: 420px;
     background: transparent;
-    border: 2px solid #878383;
+    border: 2px solid #8d8686;
     backdrop-filter: blur(20px);
     border-radius: 12px;
     padding: 30px 40px;

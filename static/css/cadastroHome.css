@@ -1,0 +1,114 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("https://picsum.photos/1600/900?random=1");
+     background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* CONTAINER CADASTRO */
+.cadastro-container {
+    width: 420px;
+    background: transparent;
+    border: 2px solid #8d8686;
+    backdrop-filter: blur(20px);
+    border-radius: 12px;
+    padding: 30px 40px;
+    width: 420px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* TÍTULO */
+.cadastro-container h1{
+    font-size: 36px;
+    text-align: center;
+    color: rgb(71, 90, 107);
+}
+
+/* INPUTS */
+.cadastro-input{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.cadastro-input input{
+    width:100%;
+    height:100%;
+    background:transparent;
+    border:none;
+    outline:none;
+    border:2px solid rgba(95,113,113,0.9);
+    border-radius:10px;
+    font-size:16px;
+    color:#fff;
+    padding:20px;
+    transition:0.3s;
+}
+
+/* PLACEHOLDER */
+.cadastro-input input::placeholder{
+    color:#fff;
+}
+
+/* EFEITO HOVER */
+.cadastro-input input:hover{
+    border-color:#ffffff;
+}
+
+/* EFEITO FOCUS */
+.cadastro-input input:focus{
+    border-color:#6a6363;
+    box-shadow:0 0 10px rgba(255,255,255,0.3);
+}
+
+/* BOTÃO */
+.cadastro-button{
+    width:100%;
+    height:50px;
+    background-color:#9e9494;
+    border:none;
+    border-radius:10px;
+    color:#fff;
+    font-weight:700;
+    margin-top:24px;
+    cursor:pointer;
+    font-size:16px;
+    transition:0.3s;
+}
+
+.cadastro-button:hover{
+    background-color:#6a6363;
+}
+
+/* LINK LOGIN */
+.cadastro-link{
+    text-align:center;
+    margin-top:20px;
+}
+
+.cadastro-link p{
+    color:#ffffff;
+    font-size: 16px;
+}
+
+.cadastro-link a{
+    color:#ffffff;
+    font-weight:700;
+    text-decoration:none;
+}
+
+.cadastro-link a:hover{
+    text-decoration:underline;
+}
