@@ -52,7 +52,7 @@ projeto-login/
 ### 1️⃣ Clonar o repositório
 
 ```
-git clone https://github.com/adrianosouza-dev/_login
+ggit clone https://github.com/SEU-USUARIO/projeto-login
 ```
 
 ### 2️⃣ Entrar na pasta
