@@ -28,16 +28,22 @@ Objetivo: praticar conceitos de **Back-End**, rotas HTTP e organização de proj
 
 ## 📂 Estrutura do Projeto
 
-```
 projeto-login/
 │
 ├── loginAPP.py
+├── README.md
+├── .gitignore
+│
 ├── templates/
 │   ├── login.html
 │   └── cadastro.html
-└── static/
-    └── style.css
-```
+│
+├── static/
+│   └── style.css
+│
+└── assets/
+    ├── login.png
+    └── cadastro.png
 
 ---
 
@@ -46,7 +52,7 @@ projeto-login/
 ### 1️⃣ Clonar o repositório
 
 ```
-git clone https://github.com/SEU-USUARIO/projeto-login
+git clone https://github.com/adrianosouza-dev/_login
 ```
 
 ### 2️⃣ Entrar na pasta
