@@ -19,7 +19,7 @@ body{
 .cadastro-container {
     width: 420px;
     background: transparent;
-    border: 2px solid #8d8686;
+    border: 2px solid #7e7979;
     backdrop-filter: blur(20px);
     border-radius: 12px;
     padding: 30px 40px;
@@ -32,7 +32,7 @@ body{
 .cadastro-container h1{
     font-size: 36px;
     text-align: center;
-    color: rgb(71, 90, 107);
+    color: rgb(213, 223, 233);
 }
 
 /* INPUTS */
@@ -59,11 +59,12 @@ body{
 
 /* PLACEHOLDER */
 .cadastro-input input::placeholder{
-    color:#fff;
+    color:#908b8b;
 }
 
 /* EFEITO HOVER */
 .cadastro-input input:hover{
+    
     border-color:#ffffff;
 }
 
